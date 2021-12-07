@@ -3,6 +3,7 @@ package org.company;
 public class GameOfLife {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GameField g = new GameField();
+        g.print();
     }
 }
